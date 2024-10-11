@@ -1,5 +1,5 @@
 FROM python:3.12-slim
-FROM ubuntu:latest
+
 MAINTAINER Gia Hung "hungb2111886@student.ctu.edu.vn"
 RUN apt update -y && \
     apt install -y gcc libffi-dev libssl-dev python3-dev
